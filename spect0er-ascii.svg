@@ -1,0 +1,278 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 370 360" width="370" height="360">
+  <style>
+    .bg { fill: #0d1117; rx: 12px; stroke: #30363d; stroke-width: 1px; }
+    .title-bar { fill: #161b22; rx: 12px; }
+    .dot-red { fill: #ff5f56; }
+    .dot-yellow { fill: #ffbd2e; }
+    .dot-green { fill: #27c93f; }
+    .title-text { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace; font-size: 13px; fill: #8b949e; font-weight: 600; }
+    
+    text {
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+      font-size: 7.2px;
+      fill: #58a6ff;
+      letter-spacing: 0px;
+      white-space: pre;
+    }
+  </style>
+
+  <defs>
+    
+    <clipPath id="cp-row-0">
+      <rect id="rect-row-0" x="18" y="45.8" width="0" height="8.6" />
+    </clipPath>
+    <clipPath id="cp-row-1">
+      <rect id="rect-row-1" x="18" y="53.4" width="0" height="8.6" />
+    </clipPath>
+    <clipPath id="cp-row-2">
+      <rect id="rect-row-2" x="18" y="61.0" width="0" height="8.6" />
+    </clipPath>
+    <clipPath id="cp-row-3">
+      <rect id="rect-row-3" x="18" y="68.6" width="0" height="8.6" />
+    </clipPath>
+    <clipPath id="cp-row-4">
+      <rect id="rect-row-4" x="18" y="76.2" width="0" height="8.6" />
+    </clipPath>
+    <clipPath id="cp-row-5">
+      <rect id="rect-row-5" x="18" y="83.8" width="0" height="8.6" />
+    </clipPath>
+    <clipPath id="cp-row-6">
+      <rect id="rect-row-6" x="18" y="91.39999999999999" width="0" height="8.6" />
+    </clipPath>
+    <clipPath id="cp-row-7">
+      <rect id="rect-row-7" x="18" y="98.99999999999999" width="0" height="8.6" />
+    </clipPath>
+    <clipPath id="cp-row-8">
+      <rect id="rect-row-8" x="18" y="106.6" width="0" height="8.6" />
+    </clipPath>
+    <clipPath id="cp-row-9">
+      <rect id="rect-row-9" x="18" y="114.19999999999999" width="0" height="8.6" />
+    </clipPath>
+    <clipPath id="cp-row-10">
+      <rect id="rect-row-10" x="18" y="121.8" width="0" height="8.6" />
+    </clipPath>
+    <clipPath id="cp-row-11">
+      <rect id="rect-row-11" x="18" y="129.4" width="0" height="8.6" />
+    </clipPath>
+    <clipPath id="cp-row-12">
+      <rect id="rect-row-12" x="18" y="137.0" width="0" height="8.6" />
+    </clipPath>
+    <clipPath id="cp-row-13">
+      <rect id="rect-row-13" x="18" y="144.60000000000002" width="0" height="8.6" />
+    </clipPath>
+    <clipPath id="cp-row-14">
+      <rect id="rect-row-14" x="18" y="152.2" width="0" height="8.6" />
+    </clipPath>
+    <clipPath id="cp-row-15">
+      <rect id="rect-row-15" x="18" y="159.8" width="0" height="8.6" />
+    </clipPath>
+    <clipPath id="cp-row-16">
+      <rect id="rect-row-16" x="18" y="167.4" width="0" height="8.6" />
+    </clipPath>
+    <clipPath id="cp-row-17">
+      <rect id="rect-row-17" x="18" y="175.0" width="0" height="8.6" />
+    </clipPath>
+    <clipPath id="cp-row-18">
+      <rect id="rect-row-18" x="18" y="182.6" width="0" height="8.6" />
+    </clipPath>
+    <clipPath id="cp-row-19">
+      <rect id="rect-row-19" x="18" y="190.20000000000002" width="0" height="8.6" />
+    </clipPath>
+    <clipPath id="cp-row-20">
+      <rect id="rect-row-20" x="18" y="197.8" width="0" height="8.6" />
+    </clipPath>
+    <clipPath id="cp-row-21">
+      <rect id="rect-row-21" x="18" y="205.4" width="0" height="8.6" />
+    </clipPath>
+    <clipPath id="cp-row-22">
+      <rect id="rect-row-22" x="18" y="213.0" width="0" height="8.6" />
+    </clipPath>
+    <clipPath id="cp-row-23">
+      <rect id="rect-row-23" x="18" y="220.6" width="0" height="8.6" />
+    </clipPath>
+    <clipPath id="cp-row-24">
+      <rect id="rect-row-24" x="18" y="228.2" width="0" height="8.6" />
+    </clipPath>
+    <clipPath id="cp-row-25">
+      <rect id="rect-row-25" x="18" y="235.8" width="0" height="8.6" />
+    </clipPath>
+    <clipPath id="cp-row-26">
+      <rect id="rect-row-26" x="18" y="243.4" width="0" height="8.6" />
+    </clipPath>
+    <clipPath id="cp-row-27">
+      <rect id="rect-row-27" x="18" y="251.0" width="0" height="8.6" />
+    </clipPath>
+    <clipPath id="cp-row-28">
+      <rect id="rect-row-28" x="18" y="258.59999999999997" width="0" height="8.6" />
+    </clipPath>
+    <clipPath id="cp-row-29">
+      <rect id="rect-row-29" x="18" y="266.2" width="0" height="8.6" />
+    </clipPath>
+    <clipPath id="cp-row-30">
+      <rect id="rect-row-30" x="18" y="273.8" width="0" height="8.6" />
+    </clipPath>
+    <clipPath id="cp-row-31">
+      <rect id="rect-row-31" x="18" y="281.40000000000003" width="0" height="8.6" />
+    </clipPath>
+    <clipPath id="cp-row-32">
+      <rect id="rect-row-32" x="18" y="289.0" width="0" height="8.6" />
+    </clipPath>
+    <clipPath id="cp-row-33">
+      <rect id="rect-row-33" x="18" y="296.59999999999997" width="0" height="8.6" />
+    </clipPath>
+    <clipPath id="cp-row-34">
+      <rect id="rect-row-34" x="18" y="304.2" width="0" height="8.6" />
+    </clipPath>
+    <clipPath id="cp-row-35">
+      <rect id="rect-row-35" x="18" y="311.8" width="0" height="8.6" />
+    </clipPath>
+    <clipPath id="cp-row-36">
+      <rect id="rect-row-36" x="18" y="319.4" width="0" height="8.6" />
+    </clipPath>
+    <clipPath id="cp-row-37">
+      <rect id="rect-row-37" x="18" y="327.0" width="0" height="8.6" />
+    </clipPath>
+  </defs>
+
+  <!-- Background card -->
+  <rect class="bg" width="370" height="360" />
+
+  <!-- Terminal Window Header -->
+  <path d="M 0 12 C 0 5.37 5.37 0 12 0 L 358 0 C 364.63 0 370 5.37 370 12 L 370 38 L 0 38 Z" fill="#161b22" />
+  <line x1="0" y1="38" x2="370" y2="38" stroke="#30363d" stroke-width="1" />
+
+  <!-- Window Dots -->
+  <circle cx="20" cy="19" r="6" class="dot-red" />
+  <circle cx="40" cy="19" r="6" class="dot-yellow" />
+  <circle cx="60" cy="19" r="6" class="dot-green" />
+
+  <!-- Window Title -->
+  <text x="185.0" y="23" text-anchor="middle" class="title-text">spect0er-ascii.svg</text>
+
+  <!-- ASCII Lines -->
+  <g>
+    <text x="18" y="52.0" clip-path="url(#cp-row-0)">                                                                    </text><text x="18" y="59.6" clip-path="url(#cp-row-1)">                                                                    </text><text x="18" y="67.2" clip-path="url(#cp-row-2)">                                                                    </text><text x="18" y="74.8" clip-path="url(#cp-row-3)">                                                                    </text><text x="18" y="82.4" clip-path="url(#cp-row-4)">                            ...```````..                            </text><text x="18" y="90.0" clip-path="url(#cp-row-5)">                       `:=*ccss######sssc*+-`.                      </text><text x="18" y="97.6" clip-path="url(#cp-row-6)">                   .:+cs#####################s*-.                   </text><text x="18" y="105.19999999999999" clip-path="url(#cp-row-7)">                 `=c############################s*:                 </text><text x="18" y="112.8" clip-path="url(#cp-row-8)">               .+s#################################c`               </text><text x="18" y="120.39999999999999" clip-path="url(#cp-row-9)">              `c####################################s-              </text><text x="18" y="128.0" clip-path="url(#cp-row-10)">             `s#######################################-             </text><text x="18" y="135.6" clip-path="url(#cp-row-11)">             *########################################s.            </text><text x="18" y="143.2" clip-path="url(#cp-row-12)">            .*s####ssssssssssssssssssssssssssssss####sc:            </text><text x="18" y="150.8" clip-path="url(#cp-row-13)">              -sss*-=csssssssssc=---cssssssssss+-+sss+.             </text><text x="18" y="158.39999999999998" clip-path="url(#cp-row-14)">              +ssc-:*%%%%%%%%%%%s++*#%%%%%%%%%%s-:*ssc`             </text><text x="18" y="166.0" clip-path="url(#cp-row-15)">             .css+::c%%%%%%%%%%%s++*%%%%%%%%%%%s-:-css-             </text><text x="18" y="173.6" clip-path="url(#cp-row-16)">             :ssc-::*###########*::=###########s-::*ss+             </text><text x="18" y="181.2" clip-path="url(#cp-row-17)">             :ssc-:::===========-:::===========-:::*ss+             </text><text x="18" y="188.79999999999998" clip-path="url(#cp-row-18)">             `csc-:::::::::::::::::::::::::::::::::*ss=             </text><text x="18" y="196.4" clip-path="url(#cp-row-19)">             .*ss=::::::::::::::::::::::::::::::::-csc:             </text><text x="18" y="204.0" clip-path="url(#cp-row-20)">              -ss*-:::::::::::::::::::::::::::::::+ss*              </text><text x="18" y="211.6" clip-path="url(#cp-row-21)">              .*ss+:::::::-::::::::::::::--::::::=csc`              </text><text x="18" y="219.2" clip-path="url(#cp-row-22)">               `*ss*-:::::++=--:::::::-=++-:::::=csc-               </text><text x="18" y="226.79999999999998" clip-path="url(#cp-row-23)">                .+ss*=:::::-=++++++++++==:::::-*csc:                </text><text x="18" y="234.39999999999998" clip-path="url(#cp-row-24)">                  =csc*=:::---==+++++=----::-+csc+`                 </text><text x="18" y="242.0" clip-path="url(#cp-row-25)">                   `*ssscccsssssssssssssscccsssc-                   </text><text x="18" y="249.6" clip-path="url(#cp-row-26)">                  `=*s#########################c+:.                 </text><text x="18" y="257.2" clip-path="url(#cp-row-27)">               `=cs##############################sc+:.              </text><text x="18" y="264.79999999999995" clip-path="url(#cp-row-28)">             :*s####################################sc=.            </text><text x="18" y="272.4" clip-path="url(#cp-row-29)">           `*s#########################################c-           </text><text x="18" y="280.0" clip-path="url(#cp-row-30)">          =s##############sc=c########s=*s##############s+.         </text><text x="18" y="287.6" clip-path="url(#cp-row-31)">        .+s##############c=-*s########sc=-cs##############c`        </text><text x="18" y="295.2" clip-path="url(#cp-row-32)">        +s##############s+:*s###########s--s###############c.       </text><text x="18" y="302.79999999999995" clip-path="url(#cp-row-33)">       -s################s*-+s########s*-=c#################+       </text><text x="18" y="310.4" clip-path="url(#cp-row-34)">       *###################s+c########s+cs##################s`      </text><text x="18" y="318.0" clip-path="url(#cp-row-35)">      `s#####################################################=      </text><text x="18" y="325.59999999999997" clip-path="url(#cp-row-36)">      `s#####################################################=      </text><text x="18" y="333.2" clip-path="url(#cp-row-37)">      .c####################################################s:      </text>
+  </g>
+
+  <!-- Active Cursor Blocks -->
+  <g>
+    <rect id="cursor-row-0" x="18" y="45.8" width="5" height="7.6" fill="#39d353" opacity="0" /><rect id="cursor-row-1" x="18" y="53.4" width="5" height="7.6" fill="#39d353" opacity="0" /><rect id="cursor-row-2" x="18" y="61.0" width="5" height="7.6" fill="#39d353" opacity="0" /><rect id="cursor-row-3" x="18" y="68.6" width="5" height="7.6" fill="#39d353" opacity="0" /><rect id="cursor-row-4" x="18" y="76.2" width="5" height="7.6" fill="#39d353" opacity="0" /><rect id="cursor-row-5" x="18" y="83.8" width="5" height="7.6" fill="#39d353" opacity="0" /><rect id="cursor-row-6" x="18" y="91.39999999999999" width="5" height="7.6" fill="#39d353" opacity="0" /><rect id="cursor-row-7" x="18" y="98.99999999999999" width="5" height="7.6" fill="#39d353" opacity="0" /><rect id="cursor-row-8" x="18" y="106.6" width="5" height="7.6" fill="#39d353" opacity="0" /><rect id="cursor-row-9" x="18" y="114.19999999999999" width="5" height="7.6" fill="#39d353" opacity="0" /><rect id="cursor-row-10" x="18" y="121.8" width="5" height="7.6" fill="#39d353" opacity="0" /><rect id="cursor-row-11" x="18" y="129.4" width="5" height="7.6" fill="#39d353" opacity="0" /><rect id="cursor-row-12" x="18" y="137.0" width="5" height="7.6" fill="#39d353" opacity="0" /><rect id="cursor-row-13" x="18" y="144.60000000000002" width="5" height="7.6" fill="#39d353" opacity="0" /><rect id="cursor-row-14" x="18" y="152.2" width="5" height="7.6" fill="#39d353" opacity="0" /><rect id="cursor-row-15" x="18" y="159.8" width="5" height="7.6" fill="#39d353" opacity="0" /><rect id="cursor-row-16" x="18" y="167.4" width="5" height="7.6" fill="#39d353" opacity="0" /><rect id="cursor-row-17" x="18" y="175.0" width="5" height="7.6" fill="#39d353" opacity="0" /><rect id="cursor-row-18" x="18" y="182.6" width="5" height="7.6" fill="#39d353" opacity="0" /><rect id="cursor-row-19" x="18" y="190.20000000000002" width="5" height="7.6" fill="#39d353" opacity="0" /><rect id="cursor-row-20" x="18" y="197.8" width="5" height="7.6" fill="#39d353" opacity="0" /><rect id="cursor-row-21" x="18" y="205.4" width="5" height="7.6" fill="#39d353" opacity="0" /><rect id="cursor-row-22" x="18" y="213.0" width="5" height="7.6" fill="#39d353" opacity="0" /><rect id="cursor-row-23" x="18" y="220.6" width="5" height="7.6" fill="#39d353" opacity="0" /><rect id="cursor-row-24" x="18" y="228.2" width="5" height="7.6" fill="#39d353" opacity="0" /><rect id="cursor-row-25" x="18" y="235.8" width="5" height="7.6" fill="#39d353" opacity="0" /><rect id="cursor-row-26" x="18" y="243.4" width="5" height="7.6" fill="#39d353" opacity="0" /><rect id="cursor-row-27" x="18" y="251.0" width="5" height="7.6" fill="#39d353" opacity="0" /><rect id="cursor-row-28" x="18" y="258.59999999999997" width="5" height="7.6" fill="#39d353" opacity="0" /><rect id="cursor-row-29" x="18" y="266.2" width="5" height="7.6" fill="#39d353" opacity="0" /><rect id="cursor-row-30" x="18" y="273.8" width="5" height="7.6" fill="#39d353" opacity="0" /><rect id="cursor-row-31" x="18" y="281.40000000000003" width="5" height="7.6" fill="#39d353" opacity="0" /><rect id="cursor-row-32" x="18" y="289.0" width="5" height="7.6" fill="#39d353" opacity="0" /><rect id="cursor-row-33" x="18" y="296.59999999999997" width="5" height="7.6" fill="#39d353" opacity="0" /><rect id="cursor-row-34" x="18" y="304.2" width="5" height="7.6" fill="#39d353" opacity="0" /><rect id="cursor-row-35" x="18" y="311.8" width="5" height="7.6" fill="#39d353" opacity="0" /><rect id="cursor-row-36" x="18" y="319.4" width="5" height="7.6" fill="#39d353" opacity="0" /><rect id="cursor-row-37" x="18" y="327.0" width="5" height="7.6" fill="#39d353" opacity="0" />
+  </g>
+
+  <!-- SMIL Animations -->
+  
+    <animate href="#rect-row-0" attributeName="width" from="0" to="338" dur="0.18s" begin="0.10s" fill="freeze" />
+    <animate href="#cursor-row-0" attributeName="x" from="18" to="348" dur="0.18s" begin="0.10s" fill="freeze" />
+    <animate href="#cursor-row-0" attributeName="opacity" from="1" to="0" dur="0.05s" begin="0.28s" fill="freeze" />
+    <animate href="#rect-row-1" attributeName="width" from="0" to="338" dur="0.18s" begin="0.14s" fill="freeze" />
+    <animate href="#cursor-row-1" attributeName="x" from="18" to="348" dur="0.18s" begin="0.14s" fill="freeze" />
+    <animate href="#cursor-row-1" attributeName="opacity" from="1" to="0" dur="0.05s" begin="0.32s" fill="freeze" />
+    <animate href="#rect-row-2" attributeName="width" from="0" to="338" dur="0.18s" begin="0.18s" fill="freeze" />
+    <animate href="#cursor-row-2" attributeName="x" from="18" to="348" dur="0.18s" begin="0.18s" fill="freeze" />
+    <animate href="#cursor-row-2" attributeName="opacity" from="1" to="0" dur="0.05s" begin="0.36s" fill="freeze" />
+    <animate href="#rect-row-3" attributeName="width" from="0" to="338" dur="0.18s" begin="0.22s" fill="freeze" />
+    <animate href="#cursor-row-3" attributeName="x" from="18" to="348" dur="0.18s" begin="0.22s" fill="freeze" />
+    <animate href="#cursor-row-3" attributeName="opacity" from="1" to="0" dur="0.05s" begin="0.40s" fill="freeze" />
+    <animate href="#rect-row-4" attributeName="width" from="0" to="338" dur="0.18s" begin="0.26s" fill="freeze" />
+    <animate href="#cursor-row-4" attributeName="x" from="18" to="348" dur="0.18s" begin="0.26s" fill="freeze" />
+    <animate href="#cursor-row-4" attributeName="opacity" from="1" to="0" dur="0.05s" begin="0.44s" fill="freeze" />
+    <animate href="#rect-row-5" attributeName="width" from="0" to="338" dur="0.18s" begin="0.30s" fill="freeze" />
+    <animate href="#cursor-row-5" attributeName="x" from="18" to="348" dur="0.18s" begin="0.30s" fill="freeze" />
+    <animate href="#cursor-row-5" attributeName="opacity" from="1" to="0" dur="0.05s" begin="0.48s" fill="freeze" />
+    <animate href="#rect-row-6" attributeName="width" from="0" to="338" dur="0.18s" begin="0.34s" fill="freeze" />
+    <animate href="#cursor-row-6" attributeName="x" from="18" to="348" dur="0.18s" begin="0.34s" fill="freeze" />
+    <animate href="#cursor-row-6" attributeName="opacity" from="1" to="0" dur="0.05s" begin="0.52s" fill="freeze" />
+    <animate href="#rect-row-7" attributeName="width" from="0" to="338" dur="0.18s" begin="0.38s" fill="freeze" />
+    <animate href="#cursor-row-7" attributeName="x" from="18" to="348" dur="0.18s" begin="0.38s" fill="freeze" />
+    <animate href="#cursor-row-7" attributeName="opacity" from="1" to="0" dur="0.05s" begin="0.56s" fill="freeze" />
+    <animate href="#rect-row-8" attributeName="width" from="0" to="338" dur="0.18s" begin="0.42s" fill="freeze" />
+    <animate href="#cursor-row-8" attributeName="x" from="18" to="348" dur="0.18s" begin="0.42s" fill="freeze" />
+    <animate href="#cursor-row-8" attributeName="opacity" from="1" to="0" dur="0.05s" begin="0.60s" fill="freeze" />
+    <animate href="#rect-row-9" attributeName="width" from="0" to="338" dur="0.18s" begin="0.46s" fill="freeze" />
+    <animate href="#cursor-row-9" attributeName="x" from="18" to="348" dur="0.18s" begin="0.46s" fill="freeze" />
+    <animate href="#cursor-row-9" attributeName="opacity" from="1" to="0" dur="0.05s" begin="0.64s" fill="freeze" />
+    <animate href="#rect-row-10" attributeName="width" from="0" to="338" dur="0.18s" begin="0.50s" fill="freeze" />
+    <animate href="#cursor-row-10" attributeName="x" from="18" to="348" dur="0.18s" begin="0.50s" fill="freeze" />
+    <animate href="#cursor-row-10" attributeName="opacity" from="1" to="0" dur="0.05s" begin="0.68s" fill="freeze" />
+    <animate href="#rect-row-11" attributeName="width" from="0" to="338" dur="0.18s" begin="0.54s" fill="freeze" />
+    <animate href="#cursor-row-11" attributeName="x" from="18" to="348" dur="0.18s" begin="0.54s" fill="freeze" />
+    <animate href="#cursor-row-11" attributeName="opacity" from="1" to="0" dur="0.05s" begin="0.72s" fill="freeze" />
+    <animate href="#rect-row-12" attributeName="width" from="0" to="338" dur="0.18s" begin="0.58s" fill="freeze" />
+    <animate href="#cursor-row-12" attributeName="x" from="18" to="348" dur="0.18s" begin="0.58s" fill="freeze" />
+    <animate href="#cursor-row-12" attributeName="opacity" from="1" to="0" dur="0.05s" begin="0.76s" fill="freeze" />
+    <animate href="#rect-row-13" attributeName="width" from="0" to="338" dur="0.18s" begin="0.62s" fill="freeze" />
+    <animate href="#cursor-row-13" attributeName="x" from="18" to="348" dur="0.18s" begin="0.62s" fill="freeze" />
+    <animate href="#cursor-row-13" attributeName="opacity" from="1" to="0" dur="0.05s" begin="0.80s" fill="freeze" />
+    <animate href="#rect-row-14" attributeName="width" from="0" to="338" dur="0.18s" begin="0.66s" fill="freeze" />
+    <animate href="#cursor-row-14" attributeName="x" from="18" to="348" dur="0.18s" begin="0.66s" fill="freeze" />
+    <animate href="#cursor-row-14" attributeName="opacity" from="1" to="0" dur="0.05s" begin="0.84s" fill="freeze" />
+    <animate href="#rect-row-15" attributeName="width" from="0" to="338" dur="0.18s" begin="0.70s" fill="freeze" />
+    <animate href="#cursor-row-15" attributeName="x" from="18" to="348" dur="0.18s" begin="0.70s" fill="freeze" />
+    <animate href="#cursor-row-15" attributeName="opacity" from="1" to="0" dur="0.05s" begin="0.88s" fill="freeze" />
+    <animate href="#rect-row-16" attributeName="width" from="0" to="338" dur="0.18s" begin="0.74s" fill="freeze" />
+    <animate href="#cursor-row-16" attributeName="x" from="18" to="348" dur="0.18s" begin="0.74s" fill="freeze" />
+    <animate href="#cursor-row-16" attributeName="opacity" from="1" to="0" dur="0.05s" begin="0.92s" fill="freeze" />
+    <animate href="#rect-row-17" attributeName="width" from="0" to="338" dur="0.18s" begin="0.78s" fill="freeze" />
+    <animate href="#cursor-row-17" attributeName="x" from="18" to="348" dur="0.18s" begin="0.78s" fill="freeze" />
+    <animate href="#cursor-row-17" attributeName="opacity" from="1" to="0" dur="0.05s" begin="0.96s" fill="freeze" />
+    <animate href="#rect-row-18" attributeName="width" from="0" to="338" dur="0.18s" begin="0.82s" fill="freeze" />
+    <animate href="#cursor-row-18" attributeName="x" from="18" to="348" dur="0.18s" begin="0.82s" fill="freeze" />
+    <animate href="#cursor-row-18" attributeName="opacity" from="1" to="0" dur="0.05s" begin="1.00s" fill="freeze" />
+    <animate href="#rect-row-19" attributeName="width" from="0" to="338" dur="0.18s" begin="0.86s" fill="freeze" />
+    <animate href="#cursor-row-19" attributeName="x" from="18" to="348" dur="0.18s" begin="0.86s" fill="freeze" />
+    <animate href="#cursor-row-19" attributeName="opacity" from="1" to="0" dur="0.05s" begin="1.04s" fill="freeze" />
+    <animate href="#rect-row-20" attributeName="width" from="0" to="338" dur="0.18s" begin="0.90s" fill="freeze" />
+    <animate href="#cursor-row-20" attributeName="x" from="18" to="348" dur="0.18s" begin="0.90s" fill="freeze" />
+    <animate href="#cursor-row-20" attributeName="opacity" from="1" to="0" dur="0.05s" begin="1.08s" fill="freeze" />
+    <animate href="#rect-row-21" attributeName="width" from="0" to="338" dur="0.18s" begin="0.94s" fill="freeze" />
+    <animate href="#cursor-row-21" attributeName="x" from="18" to="348" dur="0.18s" begin="0.94s" fill="freeze" />
+    <animate href="#cursor-row-21" attributeName="opacity" from="1" to="0" dur="0.05s" begin="1.12s" fill="freeze" />
+    <animate href="#rect-row-22" attributeName="width" from="0" to="338" dur="0.18s" begin="0.98s" fill="freeze" />
+    <animate href="#cursor-row-22" attributeName="x" from="18" to="348" dur="0.18s" begin="0.98s" fill="freeze" />
+    <animate href="#cursor-row-22" attributeName="opacity" from="1" to="0" dur="0.05s" begin="1.16s" fill="freeze" />
+    <animate href="#rect-row-23" attributeName="width" from="0" to="338" dur="0.18s" begin="1.02s" fill="freeze" />
+    <animate href="#cursor-row-23" attributeName="x" from="18" to="348" dur="0.18s" begin="1.02s" fill="freeze" />
+    <animate href="#cursor-row-23" attributeName="opacity" from="1" to="0" dur="0.05s" begin="1.20s" fill="freeze" />
+    <animate href="#rect-row-24" attributeName="width" from="0" to="338" dur="0.18s" begin="1.06s" fill="freeze" />
+    <animate href="#cursor-row-24" attributeName="x" from="18" to="348" dur="0.18s" begin="1.06s" fill="freeze" />
+    <animate href="#cursor-row-24" attributeName="opacity" from="1" to="0" dur="0.05s" begin="1.24s" fill="freeze" />
+    <animate href="#rect-row-25" attributeName="width" from="0" to="338" dur="0.18s" begin="1.10s" fill="freeze" />
+    <animate href="#cursor-row-25" attributeName="x" from="18" to="348" dur="0.18s" begin="1.10s" fill="freeze" />
+    <animate href="#cursor-row-25" attributeName="opacity" from="1" to="0" dur="0.05s" begin="1.28s" fill="freeze" />
+    <animate href="#rect-row-26" attributeName="width" from="0" to="338" dur="0.18s" begin="1.14s" fill="freeze" />
+    <animate href="#cursor-row-26" attributeName="x" from="18" to="348" dur="0.18s" begin="1.14s" fill="freeze" />
+    <animate href="#cursor-row-26" attributeName="opacity" from="1" to="0" dur="0.05s" begin="1.32s" fill="freeze" />
+    <animate href="#rect-row-27" attributeName="width" from="0" to="338" dur="0.18s" begin="1.18s" fill="freeze" />
+    <animate href="#cursor-row-27" attributeName="x" from="18" to="348" dur="0.18s" begin="1.18s" fill="freeze" />
+    <animate href="#cursor-row-27" attributeName="opacity" from="1" to="0" dur="0.05s" begin="1.36s" fill="freeze" />
+    <animate href="#rect-row-28" attributeName="width" from="0" to="338" dur="0.18s" begin="1.22s" fill="freeze" />
+    <animate href="#cursor-row-28" attributeName="x" from="18" to="348" dur="0.18s" begin="1.22s" fill="freeze" />
+    <animate href="#cursor-row-28" attributeName="opacity" from="1" to="0" dur="0.05s" begin="1.40s" fill="freeze" />
+    <animate href="#rect-row-29" attributeName="width" from="0" to="338" dur="0.18s" begin="1.26s" fill="freeze" />
+    <animate href="#cursor-row-29" attributeName="x" from="18" to="348" dur="0.18s" begin="1.26s" fill="freeze" />
+    <animate href="#cursor-row-29" attributeName="opacity" from="1" to="0" dur="0.05s" begin="1.44s" fill="freeze" />
+    <animate href="#rect-row-30" attributeName="width" from="0" to="338" dur="0.18s" begin="1.30s" fill="freeze" />
+    <animate href="#cursor-row-30" attributeName="x" from="18" to="348" dur="0.18s" begin="1.30s" fill="freeze" />
+    <animate href="#cursor-row-30" attributeName="opacity" from="1" to="0" dur="0.05s" begin="1.48s" fill="freeze" />
+    <animate href="#rect-row-31" attributeName="width" from="0" to="338" dur="0.18s" begin="1.34s" fill="freeze" />
+    <animate href="#cursor-row-31" attributeName="x" from="18" to="348" dur="0.18s" begin="1.34s" fill="freeze" />
+    <animate href="#cursor-row-31" attributeName="opacity" from="1" to="0" dur="0.05s" begin="1.52s" fill="freeze" />
+    <animate href="#rect-row-32" attributeName="width" from="0" to="338" dur="0.18s" begin="1.38s" fill="freeze" />
+    <animate href="#cursor-row-32" attributeName="x" from="18" to="348" dur="0.18s" begin="1.38s" fill="freeze" />
+    <animate href="#cursor-row-32" attributeName="opacity" from="1" to="0" dur="0.05s" begin="1.56s" fill="freeze" />
+    <animate href="#rect-row-33" attributeName="width" from="0" to="338" dur="0.18s" begin="1.42s" fill="freeze" />
+    <animate href="#cursor-row-33" attributeName="x" from="18" to="348" dur="0.18s" begin="1.42s" fill="freeze" />
+    <animate href="#cursor-row-33" attributeName="opacity" from="1" to="0" dur="0.05s" begin="1.60s" fill="freeze" />
+    <animate href="#rect-row-34" attributeName="width" from="0" to="338" dur="0.18s" begin="1.46s" fill="freeze" />
+    <animate href="#cursor-row-34" attributeName="x" from="18" to="348" dur="0.18s" begin="1.46s" fill="freeze" />
+    <animate href="#cursor-row-34" attributeName="opacity" from="1" to="0" dur="0.05s" begin="1.64s" fill="freeze" />
+    <animate href="#rect-row-35" attributeName="width" from="0" to="338" dur="0.18s" begin="1.50s" fill="freeze" />
+    <animate href="#cursor-row-35" attributeName="x" from="18" to="348" dur="0.18s" begin="1.50s" fill="freeze" />
+    <animate href="#cursor-row-35" attributeName="opacity" from="1" to="0" dur="0.05s" begin="1.68s" fill="freeze" />
+    <animate href="#rect-row-36" attributeName="width" from="0" to="338" dur="0.18s" begin="1.54s" fill="freeze" />
+    <animate href="#cursor-row-36" attributeName="x" from="18" to="348" dur="0.18s" begin="1.54s" fill="freeze" />
+    <animate href="#cursor-row-36" attributeName="opacity" from="1" to="0" dur="0.05s" begin="1.72s" fill="freeze" />
+    <animate href="#rect-row-37" attributeName="width" from="0" to="338" dur="0.18s" begin="1.58s" fill="freeze" />
+    <animate href="#cursor-row-37" attributeName="x" from="18" to="348" dur="0.18s" begin="1.58s" fill="freeze" />
+    <animate href="#cursor-row-37" attributeName="opacity" from="1" to="0" dur="0.05s" begin="1.76s" fill="freeze" />
+</svg>

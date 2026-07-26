@@ -24,13 +24,13 @@ def generate_info_card():
 
     rows = [
         ("OS", "Linux / Web Ecosystem", "#58a6ff"),
-        ("Host", f"{handle} @ FullStack", "#bc8cff"),
+        ("Host", f"{handle} (Kartikey Mishra)", "#bc8cff"),
         ("Role", "Full-Stack Engineer &amp; Systems Builder", "#79c0ff"),
+        ("LeetCode", "leetcode.com/u/spect0er", "#ffa116"),
+        ("LinkedIn", "linkedin.com/in/mishra-kartikey", "#0a66c2"),
         ("Languages", "TypeScript, Python, JavaScript, SQL, C++", "#d2a8ff"),
-        ("Frontend", "React, Next.js, HTML5/CSS3, Tailwind CSS", "#56d364"),
-        ("Backend", "Node.js, Express, FastAPI, PostgreSQL, REST APIs", "#e3b341"),
+        ("Stack", "React, Next.js, Node.js, FastAPI, PostgreSQL", "#56d364"),
         ("Uptime", contributions_count, "#79c0ff"),
-        ("Focus", "High-Performance Web Apps &amp; AI Agents", "#ff7b72"),
     ]
 
     line_svg = []

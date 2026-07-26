@@ -45,9 +45,24 @@
 
   <br>
 
+  <h3><code>spect0er@github ~ $ leetcode --stats</code></h3>
+  <a href="https://leetcode.com/u/spect0er/">
+    <img src="https://leetcode-stats-api.herokuapp.com/spect0er" alt="spect0er LeetCode Stats" />
+  </a>
+
+  <br><br>
+
   <p align="center">
     <a href="https://github.com/spect0er">
       <img src="https://img.shields.io/badge/GitHub-spect0er-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    </a>
+    &nbsp;
+    <a href="https://leetcode.com/u/spect0er/">
+      <img src="https://img.shields.io/badge/LeetCode-spect0er-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
+    </a>
+    &nbsp;
+    <a href="https://www.linkedin.com/in/mishra-kartikey/">
+      <img src="https://img.shields.io/badge/LinkedIn-Kartikey_Mishra-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
     </a>
     &nbsp;
     <a href="https://github.com/spect0er?tab=repositories">

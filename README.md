@@ -2,6 +2,11 @@
 
   <h3><code>spect0er@github ~ $ ./contributions.sh</code></h3>
   <img src="./contrib-heatmap.svg" width="860" alt="Contribution Heatmap" />
+
+  <br><br>
+
+  <h3><code>spect0er@github ~ $ ./activity-graph.sh</code></h3>
+  <img src="./contrib-graph.svg" width="860" alt="Contribution Activity Graph" />
   
   <br><br>
 

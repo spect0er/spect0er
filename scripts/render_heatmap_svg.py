@@ -74,7 +74,7 @@ def render_heatmap():
                 color = PALETTE[level]
                 
         # Staggered animation delay
-        delay = (col * 0.015) + (row * 0.02)
+        delay = 0.1 + (col * 0.035) + (row * 0.045)
         
         # Check month label
         date_parts = d["date"].split("-")
@@ -88,8 +88,8 @@ def render_heatmap():
                     month_labels.append(f'<text x="{x:.1f}" y="{start_y - 8}" class="month-label">{m_name}</text>')
 
         rect_elements.append(
-            f'<rect class="day" opacity="0" x="{x:.1f}" y="{y:.1f}" width="{box_size}" height="{box_size}" rx="2.5" fill="{color}" style="animation-delay: {delay:.3f}s;">'
-            f'<animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="{delay:.3f}s" fill="freeze" />'
+            f'<rect class="day" opacity="0" x="{x:.1f}" y="{y:.1f}" width="{box_size}" height="{box_size}" rx="2.5" fill="{color}">'
+            f'<animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="{delay:.3f}s" calcMode="spline" keyTimes="0;1" keySplines="0.16 1 0.3 1" fill="freeze" />'
             f'<title>{d["date"]}: {count} contribution{"s" if count != 1 else ""}</title>'
             f'</rect>'
         )

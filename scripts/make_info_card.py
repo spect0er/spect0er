@@ -39,22 +39,22 @@ def generate_info_card():
 
     for idx, (label, val, color) in enumerate(rows):
         y = start_y + (idx * line_height)
-        delay = 0.15 + (idx * 0.10)
+        delay = 0.25 + (idx * 0.22)
         line_svg.append(f'''
-    <g id="card-line-{idx}" opacity="0" transform="translate(0, 6)">
-      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="{delay:.2f}s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" from="0 6" to="0 0" dur="0.4s" begin="{delay:.2f}s" fill="freeze" />
+    <g id="card-line-{idx}" opacity="0" transform="translate(0, 8)">
+      <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="{delay:.2f}s" calcMode="spline" keyTimes="0;1" keySplines="0.16 1 0.3 1" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" dur="0.8s" begin="{delay:.2f}s" calcMode="spline" keyTimes="0;1" keySplines="0.16 1 0.3 1" fill="freeze" />
       <text x="25" y="{y}" class="label">{label}:</text>
       <text x="105" y="{y}" class="val" fill="{color}">{val}</text>
     </g>''')
 
     # Status row with glowing green dot indicator
     status_y = start_y + (len(rows) * line_height)
-    status_delay = 0.15 + (len(rows) * 0.10)
+    status_delay = 0.25 + (len(rows) * 0.22)
     line_svg.append(f'''
-    <g id="card-line-status" opacity="0" transform="translate(0, 6)">
-      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="{status_delay:.2f}s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" from="0 6" to="0 0" dur="0.4s" begin="{status_delay:.2f}s" fill="freeze" />
+    <g id="card-line-status" opacity="0" transform="translate(0, 8)">
+      <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="{status_delay:.2f}s" calcMode="spline" keyTimes="0;1" keySplines="0.16 1 0.3 1" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" dur="0.8s" begin="{status_delay:.2f}s" calcMode="spline" keyTimes="0;1" keySplines="0.16 1 0.3 1" fill="freeze" />
       <text x="25" y="{status_y}" class="label">Status:</text>
       <circle cx="109" cy="{status_y - 4}" r="4" fill="#39d353" />
       <text x="120" y="{status_y}" class="val" fill="#39d353">Open for collaborations &amp; building software</text>
@@ -64,13 +64,13 @@ def generate_info_card():
     color_blocks = ["#ff7b72", "#ffa657", "#d2a8ff", "#58a6ff", "#79c0ff", "#56d364", "#e3b341", "#8b949e"]
     palette_svg = []
     block_start_y = status_y + 18
-    color_delay_base = status_delay + 0.15
+    color_delay_base = status_delay + 0.20
 
     for idx, c in enumerate(color_blocks):
-        delay = color_delay_base + (idx * 0.05)
+        delay = color_delay_base + (idx * 0.08)
         palette_svg.append(
             f'<rect opacity="0" x="{105 + idx * 22}" y="{block_start_y}" width="18" height="12" rx="3" fill="{c}">'
-            f'<animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="{delay:.2f}s" fill="freeze" />'
+            f'<animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="{delay:.2f}s" calcMode="spline" keyTimes="0;1" keySplines="0.16 1 0.3 1" fill="freeze" />'
             f'</rect>'
         )
 

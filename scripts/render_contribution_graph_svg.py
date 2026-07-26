@@ -62,17 +62,17 @@ def render_graph():
 
         points.append((cx, by))
 
-        delay = 0.15 + (idx * 0.05)
+        delay = 0.2 + (idx * 0.15)
 
         # Bar element with SMIL height animation
         bar_elements.append(
             f'<g class="bar-group">'
             f'<rect x="{bx:.1f}" y="{graph_y + graph_h:.1f}" width="{bar_w:.1f}" height="0" rx="3" fill="url(#barGradient)" opacity="0.85">'
-            f'<animate attributeName="height" from="0" to="{bh:.1f}" dur="0.5s" begin="{delay:.2f}s" fill="freeze" />'
-            f'<animate attributeName="y" from="{graph_y + graph_h:.1f}" to="{by:.1f}" dur="0.5s" begin="{delay:.2f}s" fill="freeze" />'
+            f'<animate attributeName="height" from="0" to="{bh:.1f}" dur="1.0s" begin="{delay:.2f}s" calcMode="spline" keyTimes="0;1" keySplines="0.16 1 0.3 1" fill="freeze" />'
+            f'<animate attributeName="y" from="{graph_y + graph_h:.1f}" to="{by:.1f}" dur="1.0s" begin="{delay:.2f}s" calcMode="spline" keyTimes="0;1" keySplines="0.16 1 0.3 1" fill="freeze" />'
             f'</rect>'
             f'<text x="{cx:.1f}" y="{by - 6:.1f}" class="bar-val" opacity="0">{m["count"]}'
-            f'<animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="{delay + 0.3:.2f}s" fill="freeze" />'
+            f'<animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="{delay + 0.5:.2f}s" fill="freeze" />'
             f'</text>'
             f'<text x="{cx:.1f}" y="{graph_y + graph_h + 16:.1f}" class="month-label">{m["label"]}</text>'
             f'</g>'

@@ -65,11 +65,11 @@ def make_ascii_svg(prepped_image_path="source-prepped.png", output_svg_path="avi
     cursors = []
 
     # Total typing animation time per line
-    line_dur = 0.18
+    line_dur = 0.55
 
     for idx, line_text in enumerate(ascii_lines):
         y_pos = start_y + (idx * line_height)
-        delay = 0.1 + (idx * 0.04) # Staggered row delay
+        delay = 0.2 + (idx * 0.10) # Slower, smoother staggered row delay
         
         cp_id = f"cp-row-{idx}"
         rect_id = f"rect-row-{idx}"
@@ -81,9 +81,9 @@ def make_ascii_svg(prepped_image_path="source-prepped.png", output_svg_path="avi
     </clipPath>''')
 
         anim_scripts.append(f'''
-    <animate href="#{rect_id}" attributeName="width" from="0" to="338" dur="{line_dur}s" begin="{delay:.2f}s" fill="freeze" />
-    <animate href="#{cursor_id}" attributeName="x" from="{start_x}" to="{start_x + 330}" dur="{line_dur}s" begin="{delay:.2f}s" fill="freeze" />
-    <animate href="#{cursor_id}" attributeName="opacity" from="1" to="0" dur="0.05s" begin="{delay + line_dur:.2f}s" fill="freeze" />''')
+    <animate href="#{rect_id}" attributeName="width" from="0" to="338" dur="{line_dur:.2f}s" begin="{delay:.2f}s" calcMode="spline" keyTimes="0;1" keySplines="0.25 0.1 0.25 1" fill="freeze" />
+    <animate href="#{cursor_id}" attributeName="x" from="{start_x}" to="{start_x + 330}" dur="{line_dur:.2f}s" begin="{delay:.2f}s" calcMode="spline" keyTimes="0;1" keySplines="0.25 0.1 0.25 1" fill="freeze" />
+    <animate href="#{cursor_id}" attributeName="opacity" from="1" to="0" dur="0.1s" begin="{delay + line_dur:.2f}s" fill="freeze" />''')
 
         text_elements.append(f'<text x="{start_x}" y="{y_pos}" clip-path="url(#{cp_id})">{line_text}</text>')
         cursors.append(f'<rect id="{cursor_id}" x="{start_x}" y="{y_pos - font_size + 1}" width="5" height="{line_height}" fill="#39d353" opacity="0" />')

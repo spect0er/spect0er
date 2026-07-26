@@ -27,57 +27,57 @@
 
   <!-- Content Lines -->
   
-    <g id="card-line-0" opacity="0" transform="translate(0, 6)">
-      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.15s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" from="0 6" to="0 0" dur="0.4s" begin="0.15s" fill="freeze" />
+    <g id="card-line-0" opacity="0" transform="translate(0, 8)">
+      <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="0.25s" calcMode="spline" keyTimes="0;1" keySplines="0.16 1 0.3 1" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" dur="0.8s" begin="0.25s" calcMode="spline" keyTimes="0;1" keySplines="0.16 1 0.3 1" fill="freeze" />
       <text x="25" y="62" class="label">OS:</text>
       <text x="105" y="62" class="val" fill="#58a6ff">Linux / Web Ecosystem</text>
     </g>
-    <g id="card-line-1" opacity="0" transform="translate(0, 6)">
-      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.25s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" from="0 6" to="0 0" dur="0.4s" begin="0.25s" fill="freeze" />
+    <g id="card-line-1" opacity="0" transform="translate(0, 8)">
+      <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="0.47s" calcMode="spline" keyTimes="0;1" keySplines="0.16 1 0.3 1" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" dur="0.8s" begin="0.47s" calcMode="spline" keyTimes="0;1" keySplines="0.16 1 0.3 1" fill="freeze" />
       <text x="25" y="87" class="label">Host:</text>
       <text x="105" y="87" class="val" fill="#bc8cff">spect0er (Kartikey Mishra)</text>
     </g>
-    <g id="card-line-2" opacity="0" transform="translate(0, 6)">
-      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.35s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" from="0 6" to="0 0" dur="0.4s" begin="0.35s" fill="freeze" />
+    <g id="card-line-2" opacity="0" transform="translate(0, 8)">
+      <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="0.69s" calcMode="spline" keyTimes="0;1" keySplines="0.16 1 0.3 1" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" dur="0.8s" begin="0.69s" calcMode="spline" keyTimes="0;1" keySplines="0.16 1 0.3 1" fill="freeze" />
       <text x="25" y="112" class="label">Role:</text>
       <text x="105" y="112" class="val" fill="#79c0ff">Full-Stack Engineer &amp; Systems Builder</text>
     </g>
-    <g id="card-line-3" opacity="0" transform="translate(0, 6)">
-      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.45s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" from="0 6" to="0 0" dur="0.4s" begin="0.45s" fill="freeze" />
+    <g id="card-line-3" opacity="0" transform="translate(0, 8)">
+      <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="0.91s" calcMode="spline" keyTimes="0;1" keySplines="0.16 1 0.3 1" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" dur="0.8s" begin="0.91s" calcMode="spline" keyTimes="0;1" keySplines="0.16 1 0.3 1" fill="freeze" />
       <text x="25" y="137" class="label">LeetCode:</text>
       <text x="105" y="137" class="val" fill="#ffa116">leetcode.com/u/spect0er</text>
     </g>
-    <g id="card-line-4" opacity="0" transform="translate(0, 6)">
-      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.55s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" from="0 6" to="0 0" dur="0.4s" begin="0.55s" fill="freeze" />
+    <g id="card-line-4" opacity="0" transform="translate(0, 8)">
+      <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="1.13s" calcMode="spline" keyTimes="0;1" keySplines="0.16 1 0.3 1" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" dur="0.8s" begin="1.13s" calcMode="spline" keyTimes="0;1" keySplines="0.16 1 0.3 1" fill="freeze" />
       <text x="25" y="162" class="label">LinkedIn:</text>
       <text x="105" y="162" class="val" fill="#0a66c2">linkedin.com/in/mishra-kartikey</text>
     </g>
-    <g id="card-line-5" opacity="0" transform="translate(0, 6)">
-      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.65s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" from="0 6" to="0 0" dur="0.4s" begin="0.65s" fill="freeze" />
+    <g id="card-line-5" opacity="0" transform="translate(0, 8)">
+      <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="1.35s" calcMode="spline" keyTimes="0;1" keySplines="0.16 1 0.3 1" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" dur="0.8s" begin="1.35s" calcMode="spline" keyTimes="0;1" keySplines="0.16 1 0.3 1" fill="freeze" />
       <text x="25" y="187" class="label">Languages:</text>
       <text x="105" y="187" class="val" fill="#d2a8ff">TypeScript, Python, JavaScript, SQL, C++</text>
     </g>
-    <g id="card-line-6" opacity="0" transform="translate(0, 6)">
-      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.75s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" from="0 6" to="0 0" dur="0.4s" begin="0.75s" fill="freeze" />
+    <g id="card-line-6" opacity="0" transform="translate(0, 8)">
+      <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="1.57s" calcMode="spline" keyTimes="0;1" keySplines="0.16 1 0.3 1" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" dur="0.8s" begin="1.57s" calcMode="spline" keyTimes="0;1" keySplines="0.16 1 0.3 1" fill="freeze" />
       <text x="25" y="212" class="label">Stack:</text>
       <text x="105" y="212" class="val" fill="#56d364">React, Next.js, Node.js, FastAPI, PostgreSQL</text>
     </g>
-    <g id="card-line-7" opacity="0" transform="translate(0, 6)">
-      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.85s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" from="0 6" to="0 0" dur="0.4s" begin="0.85s" fill="freeze" />
+    <g id="card-line-7" opacity="0" transform="translate(0, 8)">
+      <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="1.79s" calcMode="spline" keyTimes="0;1" keySplines="0.16 1 0.3 1" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" dur="0.8s" begin="1.79s" calcMode="spline" keyTimes="0;1" keySplines="0.16 1 0.3 1" fill="freeze" />
       <text x="25" y="237" class="label">Uptime:</text>
       <text x="105" y="237" class="val" fill="#79c0ff">247 Contributions this year</text>
     </g>
-    <g id="card-line-status" opacity="0" transform="translate(0, 6)">
-      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.95s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" from="0 6" to="0 0" dur="0.4s" begin="0.95s" fill="freeze" />
+    <g id="card-line-status" opacity="0" transform="translate(0, 8)">
+      <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="2.01s" calcMode="spline" keyTimes="0;1" keySplines="0.16 1 0.3 1" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" dur="0.8s" begin="2.01s" calcMode="spline" keyTimes="0;1" keySplines="0.16 1 0.3 1" fill="freeze" />
       <text x="25" y="262" class="label">Status:</text>
       <circle cx="109" cy="258" r="4" fill="#39d353" />
       <text x="120" y="262" class="val" fill="#39d353">Open for collaborations &amp; building software</text>
@@ -85,8 +85,8 @@
 
   <!-- ANSI Color Blocks -->
   <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.10s" fill="freeze" />
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.21s" fill="freeze" />
     <text x="25" y="290" class="label">Colors:</text>
   </g>
-  <rect opacity="0" x="105" y="280" width="18" height="12" rx="3" fill="#ff7b72"><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.10s" fill="freeze" /></rect><rect opacity="0" x="127" y="280" width="18" height="12" rx="3" fill="#ffa657"><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.15s" fill="freeze" /></rect><rect opacity="0" x="149" y="280" width="18" height="12" rx="3" fill="#d2a8ff"><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.20s" fill="freeze" /></rect><rect opacity="0" x="171" y="280" width="18" height="12" rx="3" fill="#58a6ff"><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.25s" fill="freeze" /></rect><rect opacity="0" x="193" y="280" width="18" height="12" rx="3" fill="#79c0ff"><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.30s" fill="freeze" /></rect><rect opacity="0" x="215" y="280" width="18" height="12" rx="3" fill="#56d364"><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.35s" fill="freeze" /></rect><rect opacity="0" x="237" y="280" width="18" height="12" rx="3" fill="#e3b341"><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.40s" fill="freeze" /></rect><rect opacity="0" x="259" y="280" width="18" height="12" rx="3" fill="#8b949e"><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.45s" fill="freeze" /></rect>
+  <rect opacity="0" x="105" y="280" width="18" height="12" rx="3" fill="#ff7b72"><animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="2.21s" calcMode="spline" keyTimes="0;1" keySplines="0.16 1 0.3 1" fill="freeze" /></rect><rect opacity="0" x="127" y="280" width="18" height="12" rx="3" fill="#ffa657"><animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="2.29s" calcMode="spline" keyTimes="0;1" keySplines="0.16 1 0.3 1" fill="freeze" /></rect><rect opacity="0" x="149" y="280" width="18" height="12" rx="3" fill="#d2a8ff"><animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="2.37s" calcMode="spline" keyTimes="0;1" keySplines="0.16 1 0.3 1" fill="freeze" /></rect><rect opacity="0" x="171" y="280" width="18" height="12" rx="3" fill="#58a6ff"><animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="2.45s" calcMode="spline" keyTimes="0;1" keySplines="0.16 1 0.3 1" fill="freeze" /></rect><rect opacity="0" x="193" y="280" width="18" height="12" rx="3" fill="#79c0ff"><animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="2.53s" calcMode="spline" keyTimes="0;1" keySplines="0.16 1 0.3 1" fill="freeze" /></rect><rect opacity="0" x="215" y="280" width="18" height="12" rx="3" fill="#56d364"><animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="2.61s" calcMode="spline" keyTimes="0;1" keySplines="0.16 1 0.3 1" fill="freeze" /></rect><rect opacity="0" x="237" y="280" width="18" height="12" rx="3" fill="#e3b341"><animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="2.69s" calcMode="spline" keyTimes="0;1" keySplines="0.16 1 0.3 1" fill="freeze" /></rect><rect opacity="0" x="259" y="280" width="18" height="12" rx="3" fill="#8b949e"><animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="2.77s" calcMode="spline" keyTimes="0;1" keySplines="0.16 1 0.3 1" fill="freeze" /></rect>
 </svg>

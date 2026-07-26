@@ -35,44 +35,44 @@
     <g id="card-line-1">
       <animate attributeName="opacity" values="0;1" dur="0.55s" begin="0.17s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" values="0 7;0 0" dur="0.55s" begin="0.17s" fill="freeze" />
-      <text x="25"  y="87" class="label">Edu:</text>
-      <text x="105" y="87" class="val" fill="#58a6ff">B.Tech CSE @ LPU  |  CGPA: 8.23</text>
+      <text x="25"  y="87" class="label">Role:</text>
+      <text x="105" y="87" class="val" fill="#58a6ff">Full-Stack Dev  |  ML &amp; GenAI Engineer</text>
     </g>
     <g id="card-line-2">
       <animate attributeName="opacity" values="0;1" dur="0.55s" begin="0.29s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" values="0 7;0 0" dur="0.55s" begin="0.29s" fill="freeze" />
-      <text x="25"  y="112" class="label">Role:</text>
-      <text x="105" y="112" class="val" fill="#79c0ff">Full-Stack Dev  |  ML &amp; GenAI Engineer</text>
+      <text x="25"  y="112" class="label">Lang:</text>
+      <text x="105" y="112" class="val" fill="#d2a8ff">C++, JavaScript, Python, Java, C, HTML, CSS</text>
     </g>
     <g id="card-line-3">
       <animate attributeName="opacity" values="0;1" dur="0.55s" begin="0.41s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" values="0 7;0 0" dur="0.55s" begin="0.41s" fill="freeze" />
-      <text x="25"  y="137" class="label">Lang:</text>
-      <text x="105" y="137" class="val" fill="#d2a8ff">C++, JavaScript, Python, Java, C, HTML, CSS</text>
+      <text x="25"  y="137" class="label">Stack:</text>
+      <text x="105" y="137" class="val" fill="#e3b341">React, Node.js, Express, TensorFlow, Scikit-learn</text>
     </g>
     <g id="card-line-4">
       <animate attributeName="opacity" values="0;1" dur="0.55s" begin="0.53s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" values="0 7;0 0" dur="0.55s" begin="0.53s" fill="freeze" />
-      <text x="25"  y="162" class="label">Stack:</text>
-      <text x="105" y="162" class="val" fill="#e3b341">React, Node.js, Express, TensorFlow, Scikit-learn</text>
+      <text x="25"  y="162" class="label">Tools:</text>
+      <text x="105" y="162" class="val" fill="#56d364">MySQL, MongoDB, Git, Postman, Anaconda</text>
     </g>
     <g id="card-line-5">
       <animate attributeName="opacity" values="0;1" dur="0.55s" begin="0.65s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" values="0 7;0 0" dur="0.55s" begin="0.65s" fill="freeze" />
-      <text x="25"  y="187" class="label">Tools:</text>
-      <text x="105" y="187" class="val" fill="#56d364">MySQL, MongoDB, Git, Postman, Anaconda</text>
+      <text x="25"  y="187" class="label">Commits:</text>
+      <text x="105" y="187" class="val" fill="#ffa116">263 contributions  |  🔥 2d streak</text>
     </g>
     <g id="card-line-6">
       <animate attributeName="opacity" values="0;1" dur="0.55s" begin="0.77s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" values="0 7;0 0" dur="0.55s" begin="0.77s" fill="freeze" />
-      <text x="25"  y="212" class="label">Commits:</text>
-      <text x="105" y="212" class="val" fill="#ffa116">263 contributions  |  🔥 2d streak</text>
+      <text x="25"  y="212" class="label">Best Day:</text>
+      <text x="105" y="212" class="val" fill="#79c0ff">20 commits on Jul 26</text>
     </g>
     <g id="card-line-7">
       <animate attributeName="opacity" values="0;1" dur="0.55s" begin="0.89s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" values="0 7;0 0" dur="0.55s" begin="0.89s" fill="freeze" />
       <text x="25"  y="237" class="label">Achieve:</text>
-      <text x="105" y="237" class="val" fill="#ff7b72">150+ LeetCode  |  Patent Filed @ LPU</text>
+      <text x="105" y="237" class="val" fill="#ff7b72">150+ LeetCode  |  ML Anomaly Detection Patent</text>
     </g>
     <g id="card-line-status">
       <animate attributeName="opacity" values="0;1" dur="0.55s" begin="1.01s" fill="freeze" />

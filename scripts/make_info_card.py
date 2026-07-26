@@ -42,13 +42,13 @@ def generate_info_card():
     # ── Info rows (sourced from CV) ──────────────────────────────────────────
     rows = [
         ("User",     "Kartikey Mishra  |  spect0er",                                    "#bc8cff"),
-        ("Edu",      "B.Tech CSE @ LPU  |  CGPA: 8.23",                                 "#58a6ff"),
-        ("Role",     "Full-Stack Dev  |  ML &amp; GenAI Engineer",                       "#79c0ff"),
+        ("Role",     "Full-Stack Dev  |  ML &amp; GenAI Engineer",                       "#58a6ff"),
         ("Lang",     "C++, JavaScript, Python, Java, C, HTML, CSS",                      "#d2a8ff"),
         ("Stack",    "React, Node.js, Express, TensorFlow, Scikit-learn",                "#e3b341"),
         ("Tools",    "MySQL, MongoDB, Git, Postman, Anaconda",                           "#56d364"),
         ("Commits",  f"{total_commits:,} contributions  |  🔥 {current_streak}d streak", "#ffa116"),
-        ("Achieve",  "150+ LeetCode  |  Patent Filed @ LPU",                            "#ff7b72"),
+        ("Best Day", f"{best_day_count} commits on {best_label}",                          "#79c0ff"),
+        ("Achieve",  "150+ LeetCode  |  ML Anomaly Detection Patent",                     "#ff7b72"),
     ]
 
     line_svg   = []

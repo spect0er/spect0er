@@ -2,7 +2,7 @@
 
   <h1>Hi, I'm Kartikey Mishra (spect0er) 👋</h1>
   <p><strong>Full-Stack Engineer &amp; Machine Learning / GenAI Developer</strong></p>
-  <p>📍 Punjab / Kanpur, India &nbsp;|&nbsp; 🎓 B.Tech CSE @ Lovely Professional University (CGPA: 8.23)</p>
+  <p>📍 Punjab / Kanpur, India &nbsp;|&nbsp; 💻 Building Scalable Web Apps &amp; AI/ML Systems</p>
 
   <br>
 
@@ -111,47 +111,12 @@
   <h3><code>spect0er@github ~ $ cat achievements.log</code></h3>
 
   <p align="center">
-    🏆 &nbsp;<strong>Patent Filed:</strong> <em>"A Machine Learning-Based System for Anomaly Detection and Visualization in Hyperspectral Images"</em> with Lovely Professional University (Dec '25)<br>
+    🏆 &nbsp;<strong>Patent Filed:</strong> <em>"A Machine Learning-Based System for Anomaly Detection and Visualization in Hyperspectral Images"</em> (Dec '25)<br>
     🧩 &nbsp;<strong>150+ Problems Solved</strong> on LeetCode<br>
     ☀️ &nbsp;<strong>Summer Training:</strong> Full Stack with GenAI with TheAngaarBatch (July '25) — MERN + GenAI integration<br>
     📜 &nbsp;<strong>ChatGPT-4 Prompt Engineering:</strong> ChatGPT, Generative AI &amp; LLM | Infosys (Aug '25)<br>
     📜 &nbsp;<strong>Data Structures &amp; Algorithms using C++:</strong> CipherSchools (July '24)
   </p>
-
-  <br>
-
-  <h3><code>spect0er@github ~ $ cat education.json</code></h3>
-
-  <table>
-    <tr>
-      <th>Institution</th>
-      <th>Degree / Stream</th>
-      <th>Grade</th>
-      <th>Duration</th>
-      <th>Location</th>
-    </tr>
-    <tr>
-      <td><b>Lovely Professional University</b></td>
-      <td>B.Tech - Computer Science &amp; Engineering</td>
-      <td><b>CGPA: 8.23</b></td>
-      <td>Aug 2023 - Present</td>
-      <td>Punjab, India</td>
-    </tr>
-    <tr>
-      <td><b>B.N.S.D. Shiksha Niketan</b></td>
-      <td>Intermediate (Class XII)</td>
-      <td><b>81%</b></td>
-      <td>Apr 2020 - Mar 2022</td>
-      <td>Kanpur, India</td>
-    </tr>
-    <tr>
-      <td><b>Pt. Deen Dayal Upadhyaya Sanatan Dharma Vidyalaya</b></td>
-      <td>Matriculation (Class X)</td>
-      <td><b>89%</b></td>
-      <td>Apr 2018 - Mar 2020</td>
-      <td>Kanpur, India</td>
-    </tr>
-  </table>
 
   <br><br>
 

@@ -7,20 +7,20 @@
   <br>
 
   <h3><code>spect0er@github ~ $ ./contributions.sh</code></h3>
-  <img src="https://raw.githubusercontent.com/spect0er/spect0er/main/contrib-heatmap.svg?v=spect0er_v1" width="860" alt="Contribution Heatmap" />
+  <img src="./contrib-heatmap.svg" width="860" alt="Contribution Heatmap" />
 
   <br><br>
 
   <h3><code>spect0er@github ~ $ ./activity-graph.sh</code></h3>
-  <img src="https://raw.githubusercontent.com/spect0er/spect0er/main/contrib-graph.svg?v=spect0er_v1" width="860" alt="Contribution Activity Graph" />
+  <img src="./contrib-graph.svg" width="860" alt="Contribution Activity Graph" />
   
   <br><br>
 
   <h3><code>spect0er@github ~ $ whoami</code></h3>
   <table>
     <tr>
-      <td valign="top"><img src="https://raw.githubusercontent.com/spect0er/spect0er/main/spect0er-ascii.svg?v=spect0er_v1" width="370" alt="ASCII Portrait" /></td>
-      <td valign="top"><img src="https://raw.githubusercontent.com/spect0er/spect0er/main/info-card.svg?v=spect0er_v1" width="490" alt="Neofetch Info Card" /></td>
+      <td valign="top"><img src="./spect0er-ascii.svg" width="370" alt="ASCII Portrait" /></td>
+      <td valign="top"><img src="./info-card.svg" width="490" alt="Neofetch Info Card" /></td>
     </tr>
   </table>
 

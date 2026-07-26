@@ -74,7 +74,7 @@ def render_heatmap():
                 color = PALETTE[level]
                 
         # Staggered animation delay
-        delay = 0.1 + (col * 0.035) + (row * 0.045)
+        delay = 0.05 + (col * 0.025) + (row * 0.035)
         
         # Check month label
         date_parts = d["date"].split("-")
@@ -88,8 +88,8 @@ def render_heatmap():
                     month_labels.append(f'<text x="{x:.1f}" y="{start_y - 8}" class="month-label">{m_name}</text>')
 
         rect_elements.append(
-            f'<rect class="day" opacity="0" x="{x:.1f}" y="{y:.1f}" width="{box_size}" height="{box_size}" rx="2.5" fill="{color}">'
-            f'<animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="{delay:.3f}s" calcMode="spline" keyTimes="0;1" keySplines="0.16 1 0.3 1" fill="freeze" />'
+            f'<rect class="day" x="{x:.1f}" y="{y:.1f}" width="{box_size}" height="{box_size}" rx="2.5" fill="{color}">'
+            f'<animate attributeName="opacity" values="0;1" dur="0.4s" begin="{delay:.3f}s" fill="freeze" />'
             f'<title>{d["date"]}: {count} contribution{"s" if count != 1 else ""}</title>'
             f'</rect>'
         )
@@ -118,31 +118,13 @@ def render_heatmap():
 
     svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}" width="{width}" height="{height}">
   <style>
-    .bg {{ fill: #0d1117; rx: 12px; stroke: #30363d; stroke-width: 1px; }}
-    .title {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji"; font-size: 14px; font-weight: 600; fill: #58a6ff; }}
+    .bg {{ fill: #0d1117; }}
+    .title {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 600; fill: #58a6ff; }}
     .stat-badge {{ font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace; font-size: 12px; fill: #8b949e; }}
     .highlight {{ font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace; font-size: 12px; fill: #39d353; font-weight: 600; }}
     .month-label {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 10px; fill: #8b949e; }}
     .day-label {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 10px; fill: #484f58; }}
     .legend-text {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 10px; fill: #8b949e; }}
-    
-    .day {{
-      opacity: 0;
-      animation: slideIn 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
-      transform-box: fill-box;
-      transform-origin: center;
-    }}
-    
-    @keyframes slideIn {{
-      0% {{
-        opacity: 0;
-        transform: scale(0.3) translate(-3px, -3px);
-      }}
-      100% {{
-        opacity: 1;
-        transform: scale(1) translate(0, 0);
-      }}
-    }}
   </style>
 
   <!-- Background card -->

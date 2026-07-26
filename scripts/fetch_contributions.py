@@ -16,7 +16,7 @@ def fetch_html(username):
     with urllib.request.urlopen(req) as response:
         return response.read().decode('utf-8')
 
-def parse_contributions(html, username="AVIVASHISHTA29"):
+def parse_contributions(html, username="spect0er"):
     # Try importing BeautifulSoup
     try:
         from bs4 import BeautifulSoup
@@ -147,7 +147,7 @@ def parse_contributions(html, username="AVIVASHISHTA29"):
 
 def main():
     import sys
-    default_user = "AVIVASHISHTA29"
+    default_user = "spect0er"
     username = sys.argv[1] if len(sys.argv) > 1 else os.environ.get("GITHUB_USERNAME", default_user)
     print(f"Fetching contribution data for {username}...")
     html = fetch_html(username)

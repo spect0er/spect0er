@@ -113,8 +113,8 @@ def render_heatmap():
     for i, c in enumerate(PALETTE):
         legend_boxes.append(f'<rect x="{legend_start_x + i * 14}" y="{legend_y}" width="10" height="10" rx="2" fill="{c}" />')
 
-    username = data.get("username", "AVIVASHISHTA29")
-    handle = "avi" if username.upper() == "AVIVASHISHTA29" else username
+    username = data.get("username", "spect0er")
+    handle   = username.lower()
 
     svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}" width="{width}" height="{height}">
   <style>

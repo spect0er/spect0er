@@ -14,6 +14,7 @@ def render_graph():
 
     days = data.get("days", [])
     username = data.get("username", "spect0er")
+    handle = username.lower()
     total_contributions = data.get("total_contributions", 0)
 
     # Group days into 12 months

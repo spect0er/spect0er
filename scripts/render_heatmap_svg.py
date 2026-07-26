@@ -88,7 +88,8 @@ def render_heatmap():
                     month_labels.append(f'<text x="{x:.1f}" y="{start_y - 8}" class="month-label">{m_name}</text>')
 
         rect_elements.append(
-            f'<rect class="day" x="{x:.1f}" y="{y:.1f}" width="{box_size}" height="{box_size}" rx="2.5" fill="{color}" style="animation-delay: {delay:.3f}s;">'
+            f'<rect class="day" opacity="0" x="{x:.1f}" y="{y:.1f}" width="{box_size}" height="{box_size}" rx="2.5" fill="{color}" style="animation-delay: {delay:.3f}s;">'
+            f'<animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="{delay:.3f}s" fill="freeze" />'
             f'<title>{d["date"]}: {count} contribution{"s" if count != 1 else ""}</title>'
             f'</rect>'
         )

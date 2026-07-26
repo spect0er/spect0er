@@ -39,16 +39,16 @@ def generate_info_card():
     except Exception:
         pass
 
-    # ── Info rows (all sourced from real data) ───────────────────────────────
+    # ── Info rows (sourced from CV) ──────────────────────────────────────────
     rows = [
-        ("OS",       "Linux / Web Ecosystem",                         "#58a6ff"),
-        ("Host",     f"{handle} (Kartikey Mishra)",                   "#bc8cff"),
-        ("Role",     "Full-Stack Engineer &amp; Systems Builder",     "#79c0ff"),
-        ("Commits",  f"{total_commits:,} contributions this year",   "#56d364"),
-        ("Streak",   f"{current_streak}d current  |  {longest_streak}d longest", "#ffa116"),
-        ("Best Day", f"{best_day_count} commits on {best_label}",     "#ff7b72"),
-        ("Stack",    "React  Next.js  Node  FastAPI  PostgreSQL",     "#e3b341"),
-        ("Focus",    "High-Perf Web Apps &amp; AI Agents",            "#d2a8ff"),
+        ("User",     "Kartikey Mishra  |  spect0er",                                    "#bc8cff"),
+        ("Edu",      "B.Tech CSE @ LPU  |  CGPA: 8.23",                                 "#58a6ff"),
+        ("Role",     "Full-Stack Dev  |  ML &amp; GenAI Engineer",                       "#79c0ff"),
+        ("Lang",     "C++, JavaScript, Python, Java, C, HTML, CSS",                      "#d2a8ff"),
+        ("Stack",    "React, Node.js, Express, TensorFlow, Scikit-learn",                "#e3b341"),
+        ("Tools",    "MySQL, MongoDB, Git, Postman, Anaconda",                           "#56d364"),
+        ("Commits",  f"{total_commits:,} contributions  |  🔥 {current_streak}d streak", "#ffa116"),
+        ("Achieve",  "150+ LeetCode  |  Patent Filed @ LPU",                            "#ff7b72"),
     ]
 
     line_svg   = []

@@ -2,7 +2,7 @@
 
   <h1>Hi, I'm Kartikey Mishra (spect0er) 👋</h1>
   <p><strong>Full-Stack Engineer &amp; Machine Learning / GenAI Developer</strong></p>
-  <p>📍 Punjab / Kanpur, India &nbsp;|&nbsp; 💻 Building Scalable Web Apps &amp; AI/ML Systems</p>
+  <p>💻 Building Scalable Web Apps &amp; AI/ML Systems</p>
 
   <br>
 
@@ -117,13 +117,6 @@
     📜 &nbsp;<strong>ChatGPT-4 Prompt Engineering:</strong> ChatGPT, Generative AI &amp; LLM | Infosys (Aug '25)<br>
     📜 &nbsp;<strong>Data Structures &amp; Algorithms using C++:</strong> CipherSchools (July '24)
   </p>
-
-  <br><br>
-
-  <h3><code>spect0er@github ~ $ leetcode --stats</code></h3>
-  <a href="https://leetcode.com/u/spect0er/">
-    <img src="https://leetcode-stats-api.herokuapp.com/spect0er" alt="spect0er LeetCode Stats" />
-  </a>
 
   <br><br>
 

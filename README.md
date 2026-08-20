@@ -103,7 +103,7 @@
 
   <p align="center">
     <strong>Soft Skills</strong><br>
-    <code>Problem Solving</code> &nbsp;•&nbsp; <code>Team Work</code> &nbsp;•&nbsp; <code>Adaptability</code> &nbsp;•&nbsp; <code>Quick Learning</code>
+    <code>Problem Solving</code> &nbsp;•&nbsp; <code>Collaboration</code> &nbsp;•&nbsp; <code>Adaptability</code> &nbsp;•&nbsp; <code>Quick Learning</code>
   </p>
 
   <br>

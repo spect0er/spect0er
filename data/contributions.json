@@ -1,49 +1,14 @@
 {
   "username": "spect0er",
-  "updated_at": "2026-08-22T06:58:37.700618+00:00",
-  "total_contributions": 337,
-  "current_streak": 28,
-  "longest_streak": 28,
+  "updated_at": "2026-08-23T07:00:32.717791+00:00",
+  "total_contributions": 338,
+  "current_streak": 29,
+  "longest_streak": 29,
   "best_day": {
     "date": "2026-07-26",
     "count": 35
   },
   "days": [
-    {
-      "date": "2025-08-17",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-08-18",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-08-19",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-08-20",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-08-21",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-08-22",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-08-23",
-      "count": 0,
-      "level": 0
-    },
     {
       "date": "2025-08-24",
       "count": 0,
@@ -1861,6 +1826,11 @@
     },
     {
       "date": "2026-08-22",
+      "count": 1,
+      "level": 1
+    },
+    {
+      "date": "2026-08-23",
       "count": 0,
       "level": 0
     }
